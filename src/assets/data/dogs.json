@@ -1,0 +1,8 @@
+{
+    "dogs": 
+      [
+        {"name": "Lebrador","life":"10-12 years","information":"Friendly, Active, Outgoing."},
+        {"name": "American Bully","life":"10 to 12 Years","information":" Moderate Effort Required to train"},
+        {"name": "American Eskimo Dog","life":"13-15 years","information":"Playful, Perky, Smart"}
+    ]
+  }

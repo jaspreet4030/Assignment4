@@ -1,0 +1,8 @@
+{
+  "horses": 
+    [
+      {"name": "American Indian Horse","life":"25 years","information":"responding well to instruction and training"},
+      {"name": "Arabian Horse","life":"25 to 30 years","information":" quick learner with high spirits"},
+      {"name": "Karachai","life":"25 to 30 years","information":"inherently good-natured"}
+  ]
+}

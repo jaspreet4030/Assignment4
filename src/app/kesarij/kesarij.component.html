@@ -1,0 +1,43 @@
+
+<body>
+    <mat-tab-group mat-stretch-tabs 
+                    class="example-stretched-tabs mat-elevation-z4">
+    
+      <mat-tab label="Dogs">
+        <h3>Dogs</h3>
+        <table>
+          <tr> <th>Name</th> <th>Life</th> <th>Information</th> </tr>
+          <tr *ngFor="let brk of brkList">
+            <td> {{brk.name}} </td>
+            <td> {{brk.life}} </td>
+            <td> {{brk.information}} </td>
+          </tr>
+        </table>
+      </mat-tab>
+      
+      <mat-tab label="horses">
+        <h3>Horses</h3>
+    
+        <table>
+            <tr> <th>Name</th> <th>Life</th> <th>Information</th> </tr>
+          <tr *ngFor="let lnch of lnchList">
+            <td> {{brk.name}} </td>
+            <td> {{brk.life}} </td>
+            <td> {{brk.information}} </td>
+          </tr>
+        </table>
+      </mat-tab>
+    
+      <mat-tab label="fishes">
+          <h3>Fishes</h3>
+          <table>
+            <tr> <th>Name</th> <th>Life</th> <th>Information</th> </tr>
+            <tr *ngFor="let din of dnrList">
+                <td> {{brk.name}} </td>
+                <td> {{brk.life}} </td>
+                <td> {{brk.information}} </td>
+            </tr>
+          </table>
+      </mat-tab>
+    </mat-tab-group>
+    </body>

@@ -1,0 +1,8 @@
+{
+    "fishes": 
+      [
+        {"name": "Siamese fighting fish","life":"3 – 5 years","information":"known to be highly territorial"},
+        {"name": "Blue Tang","life":"8 – 20 years","information":" member of the genus Paracanthurus"},
+        {"name": "Green swordtail","life":"3-5 years","information":"it is closely related to the southern platyfish or ‘platy’ and can crossbreed with it"}
+    ]
+  }
